@@ -1,0 +1,54 @@
+{
+  "name": "match",
+  "plural": "matches",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "string"
+    },
+    "category": {
+      "type": "string",
+      "required": true
+    },
+    "start": {
+      "type": "date",
+      "required": true
+    },
+    "end": {
+      "type": "date",
+      "required": true
+    },
+    "useLiveComments": {
+      "type": "boolean",
+      "required": true,
+      "default": false
+    },
+    "enabled": {
+      "type": "boolean",
+      "required": true,
+      "default": true
+    },
+    "liveComments": {
+      "type": [
+        "object"
+      ]
+    },
+    "data": {
+      "type": [
+        "object"
+      ]
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

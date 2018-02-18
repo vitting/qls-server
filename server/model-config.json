@@ -1,0 +1,54 @@
+{
+  "_meta": {
+    "sources": [
+      "loopback/common/models",
+      "loopback/server/models",
+      "../common/models",
+      "./models"
+    ],
+    "mixins": [
+      "loopback/common/mixins",
+      "loopback/server/mixins",
+      "../common/mixins",
+      "./mixins"
+    ]
+  },
+  "User": {
+    "dataSource": "mongoDB"
+  },
+  "AccessToken": {
+    "dataSource": "mongoDB",
+    "public": false
+  },
+  "ACL": {
+    "dataSource": "mongoDB",
+    "public": false
+  },
+  "RoleMapping": {
+    "dataSource": "mongoDB",
+    "public": false,
+    "options": {
+      "strictObjectIDCoercion": true
+    }
+  },
+  "Role": {
+    "dataSource": "mongoDB",
+    "public": false
+  },
+  "event": {
+    "dataSource": "mongoDB",
+    "public": true
+  },
+  "match": {
+    "dataSource": "mongoDB",
+    "public": true
+  },
+  "category": {
+    "dataSource": "mongoDB",
+    "public": true
+  },
+  "eventadmin": {
+    "dataSource": "mongoDB",
+    "public": true
+  }
+}

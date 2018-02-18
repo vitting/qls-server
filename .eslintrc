@@ -1,0 +1,8 @@
+{
+  "extends": "loopback",
+  "rules": {
+    "indent": ["error", 4],
+    "quotes": ["error", "double"],
+    "no-trailing-spaces": 0
+  }
+}

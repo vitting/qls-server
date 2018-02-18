@@ -1,0 +1,54 @@
+{
+    "name": "Hanne og Lene vs. Pia og Johanna",
+    "description": "semifinale",
+    "category": "467t3wr32e2eq3er32",
+    "start": "Sun Feb 11 2018 19:10:14 GMT+0100 (Rom, normaltid)",
+    "end": "Sun Feb 11 2018 19:10:14 GMT+0100 (Rom, normaltid)",
+    "enabled": true,
+    "useLiveComments": true,
+    "liveComments": [
+        {
+            "date": "Sun Feb 11 2018 19:10:14 GMT+0100 (Rom, normaltid)",
+            "comment": "Lene har lige smaderet bolden ned foran nettet"
+        },
+        {
+            "date": "Sun Feb 11 2018 19:11:14 GMT+0100 (Rom, normaltid)",
+            "comment": "Pia laver den ondeste blok på Hanne"
+        }
+    ],
+    "data": [
+        {
+            "nameTeamA": "Hanne og Lene",
+            "nameTeamB": "Pia og Johanna",
+            "set": 1,
+            "pointsA": 2,
+            "pointsB": 0,
+            "timeoutsA": 0,
+            "timeoutsB": 0,
+            "updateReason": "pointA",
+            "updateDate": "Sun Feb 11 2018 19:12:14 GMT+0100 (Rom, normaltid)"
+        },
+        {
+            "nameTeamA": "Hanne og Lene",
+            "nameTeamB": "Pia og Johanna",
+            "set": 1,
+            "pointsA": 2,
+            "pointsB": 1,
+            "timeoutsA": 0,
+            "timeoutsB": 0,
+            "updateReason": "pointB",
+            "updateDate": "Sun Feb 11 2018 19:13:14 GMT+0100 (Rom, normaltid)"
+        },
+        {
+            "nameTeamA": "Hanne og Lene",
+            "nameTeamB": "Pia og Johanna",
+            "set": 1,
+            "pointsA": 2,
+            "pointsB": 1,
+            "timeoutsA": 1,
+            "timeoutsB": 0,
+            "updateReason": "timeoutA",
+            "updateDate": "Sun Feb 11 2018 19:14:14 GMT+0100 (Rom, normaltid)"
+        }
+    ]
+}
